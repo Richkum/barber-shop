@@ -232,6 +232,10 @@ text-align: initial;
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5),#009688);
-
+    background: linear-gradient(rgb(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+.single-service:hover .overlay{
+    opacity: 1;
 }
